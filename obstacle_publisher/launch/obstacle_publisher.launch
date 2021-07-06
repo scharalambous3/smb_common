@@ -1,0 +1,11 @@
+<launch>  
+  
+  <!-- Spawn the obstacle_publisher node -->
+  <node name="obstacle_publisher" pkg="obstacle_publisher" type="obstacle_publisher" output="screen">
+	   <param name="radius" value="0.5"/>
+       <param name="height" value="0.2"/>
+	   <param name="x" value="2.5"/>
+       <param name="y" value="0.0"/>
+  </node>
+
+</launch>
