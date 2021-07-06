@@ -8,5 +8,4 @@
   <author email="pankertj@ethz.ch">Johannes Pankert</author>
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>smb_description</exec_depend>
-  <exec_depend>smb_rviz_plugins</exec_depend>
 </package>
